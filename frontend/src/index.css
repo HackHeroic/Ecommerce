@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-logo {
+    font-family: 'Lobster', cursive;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+  }
+  
+  .chimichanga {
+    font-size: 2rem;
+    color: #ff5733;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .store {
+    font-size: 1.5rem;
+    color: #ffc107;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-logo:hover .chimichanga,
+  .navbar-logo:hover .store {
+    transform: scale(1.1);
+    color: #ff8b61;
+  }
+  

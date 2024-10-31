@@ -1,0 +1,157 @@
+/* ProductDetails.css */
+
+.max-w-5xl {
+    max-width: 80rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+.text-gray-700 {
+    color: #4a5568;
+}
+
+.text-gray-900 {
+    color: #1a202c;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.bg-gray-100 {
+    background-color: #f7fafc;
+}
+
+.ml-2 {
+    margin-left: 0.5rem;
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.border-blue-500 {
+    border-color: #4299e1;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.hover\:bg-blue-700:hover {
+    background-color: #2b6cb0;
+}
+
+.text-green-600 {
+    color: #48bb78;
+}
+/* ProductDetails.css */
+
+.product-size-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Add some space between the size items */
+    margin-top: 0.5rem;
+}
+
+.size-item {
+    background-color: #e2e8f0; /* Light gray background */
+    color: #2d3748; /* Dark gray text color */
+    padding: 0.25rem 0.5rem; /* Padding for the size badges */
+    border-radius: 0.375rem; /* Rounded corners */
+    font-size: 0.875rem; /* Text size */
+    font-weight: 500; /* Medium font weight */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.size-item:hover {
+    background-color: #cbd5e0; /* Darker gray background on hover */
+}
+
+
+
