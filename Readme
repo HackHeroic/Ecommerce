@@ -1,0 +1,20 @@
+To install all dependencies and packages used - frontend and backend
+    1.npm i 
+
+**Important Note**
+The backend is already connected to my own MongoDb for easy use 
+but like said its not being protected in a .env folder and not a best practice .
+In-order to connect it with your own backend and protect it please do create a .env folder and store the connection credentials .
+**-------------------**
+
+To run the backend server - use the following commands in terminal
+    1.node index.js
+
+To run frontend server - 
+    1.npm start
+
+
+To deploy it -
+    1.use "npm run build" inside front-end folder
+
+
